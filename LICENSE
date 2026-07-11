@@ -1,0 +1,41 @@
+Notedown materials licence
+
+Copyright © 2026 Yasir Dora. All rights reserved.
+
+This repository contains documentation, example files, images, and supporting
+repository checks describing Notedown ("the Materials"). The Notedown
+application, its source code, research, and internal design documents are
+separate works. Nothing in this licence grants any right in them.
+
+What you may do
+---------------
+
+- Read the Materials and link to them.
+- Quote from them with attribution and a link to this repository.
+- Download and edit the example documents for your own personal evaluation
+  of Notedown.
+- Run the repository checks and prepare modifications solely to propose a
+  contribution to this repository, as described in CONTRIBUTING.md.
+
+What you may not do
+-------------------
+
+Except as expressly permitted above, you may not modify, adapt, translate,
+create derivative works from, or redistribute the Materials as a product or
+as part of one. You may not remove copyright or attribution notices or present
+your work as Notedown or an official Notedown resource.
+
+No warranty
+-----------
+
+The Materials are provided "as is", without warranty of any kind, express or
+implied, including warranties of merchantability, fitness for a particular
+purpose, and non-infringement. In no event shall the copyright holder be liable
+for claims, damages, or other liability arising from the Materials or their use.
+
+Reservation of rights
+---------------------
+
+All rights not expressly granted are reserved by the copyright holder.
+For additional permissions, contact the maintainer through this repository:
+https://github.com/yasirdora/notedown
