@@ -17,6 +17,11 @@ These materials were assembled retrospectively on 14 October 2026. The Git
 history is arranged from 11 July 2026 to organize the documentation; commit
 dates are not original feature or release dates.
 
+## Product documentation
+
+- [Product overview](docs/product-overview.md)
+- [Design principles](docs/design-principles.md)
+
 ## Licence
 
 Copyright © 2026 Yasir Dora. All rights reserved. See [LICENSE](LICENSE).
