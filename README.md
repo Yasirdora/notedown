@@ -21,6 +21,9 @@ dates are not original feature or release dates.
 
 - [Product overview](docs/product-overview.md)
 - [Design principles](docs/design-principles.md)
+- [Formats and portability](docs/formats.md)
+- [Privacy and storage](docs/privacy-and-storage.md)
+- [Development record](record/README.md)
 
 ## Licence
 

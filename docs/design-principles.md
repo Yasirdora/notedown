@@ -30,4 +30,4 @@ Menus, a command palette, keyboard shortcuts, and direct manipulation should pro
 
 A feature earns its place when it improves a real writing task. Future ideas belong in the roadmap with a clear distinction between current behavior and work still under evaluation.
 
-See the [product overview](product-overview.md) and privacy and storage for how these principles apply today.
+See the [product overview](product-overview.md) and [privacy and storage](privacy-and-storage.md) for how these principles apply today.

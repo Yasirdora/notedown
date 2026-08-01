@@ -8,7 +8,7 @@ These capabilities describe Notedown’s current development version. This repos
 
 **Page** offers a formatted writing surface. **Markdown** exposes the source. **Split** puts both alongside each other, and **Read** presents the document without editing controls. Light, dark, and system themes adjust the workspace.
 
-Headings, lists, quotes, tables, tasks, links, images, and code blocks give everyday notes enough structure. Footnotes are an optional extension. The format guide explains the supported syntax and its limits.
+Headings, lists, quotes, tables, tasks, links, images, and code blocks give everyday notes enough structure. Footnotes are an optional extension. The [format guide](formats.md) explains the supported syntax and its limits.
 
 ## Tools close to the writing
 
@@ -22,12 +22,12 @@ Focus mode dims surrounding paragraphs and keeps the active line near reading he
 
 The document library supports multiple notes, title and body search, renaming, and deletion with a brief undo opportunity. Edits are saved automatically to browser storage, and save failures remain visible.
 
-There is no account or built-in cloud sync. Browser storage has limits, so exporting important work is part of a dependable workflow. See privacy and storage.
+There is no account or built-in cloud sync. Browser storage has limits, so exporting important work is part of a dependable workflow. See [privacy and storage](privacy-and-storage.md).
 
 ## Portable output
 
 Import Markdown or plain-text files. Export Markdown, an HTML document, or use the browser's print dialog to save a PDF. Copy options adapt content for Slack, rich-text destinations such as Docs or email, Markdown, or plain text.
 
-Stored images need particular care: Markdown exports retain browser-local image references, while HTML export embeds available stored images. The format guide explains the distinction.
+Stored images need particular care: Markdown exports retain browser-local image references, while HTML export embeds available stored images. The [format guide](formats.md#images-and-portability) explains the distinction.
 
 Start with the sample documents, read the [design principles](design-principles.md), or return to the [repository overview](../README.md).
