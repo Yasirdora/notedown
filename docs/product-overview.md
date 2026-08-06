@@ -30,4 +30,4 @@ Import Markdown or plain-text files. Export Markdown, an HTML document, or use t
 
 Stored images need particular care: Markdown exports retain browser-local image references, while HTML export embeds available stored images. The [format guide](formats.md#images-and-portability) explains the distinction.
 
-Start with the sample documents, read the [design principles](design-principles.md), or return to the [repository overview](../README.md).
+Start with the [sample documents](../examples/README.md), read the [design principles](design-principles.md), or return to the [repository overview](../README.md).

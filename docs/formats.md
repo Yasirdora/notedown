@@ -20,7 +20,7 @@ Notedown uses a custom Markdown implementation. It supports common Markdown stru
 
 Recognized fenced-code languages receive syntax coloring. Other languages remain plain code. Raw HTML is displayed as text rather than executed. Math notation and Mermaid diagrams do not have dedicated rendering in the current implementation.
 
-Footnotes must be enabled from the command palette. When enabled, references are numbered by first appearance, collected at the end, and linked back to their references. With the pack off, footnote syntax remains literal text. Try the research-note example.
+Footnotes must be enabled from the command palette. When enabled, references are numbered by first appearance, collected at the end, and linked back to their references. With the pack off, footnote syntax remains literal text. Try the [research-note example](../examples/research-note.md).
 
 ## Import and export
 
@@ -51,4 +51,4 @@ Page edits serialize the formatted document back into Markdown. Equivalent forma
 
 Versions compares the result with a trusted source baseline and allows review or restoration. Use Markdown view when exact source structure matters, and check exports in the destination where they will be used.
 
-See sample documents, [privacy and storage](privacy-and-storage.md), and the [product overview](product-overview.md).
+See [sample documents](../examples/README.md), [privacy and storage](privacy-and-storage.md), and the [product overview](product-overview.md).

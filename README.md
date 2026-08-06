@@ -25,6 +25,14 @@ dates are not original feature or release dates.
 - [Privacy and storage](docs/privacy-and-storage.md)
 - [Development record](record/README.md)
 
+## Example documents
+
+- [Research library pilot brief](examples/project-brief.md)
+- [Meeting notes](examples/meeting-notes.md)
+- [Research note with footnotes](examples/research-note.md)
+
+See the [example guide](examples/README.md) for use and portability.
+
 ## Licence
 
 Copyright © 2026 Yasir Dora. All rights reserved. See [LICENSE](LICENSE).
