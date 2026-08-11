@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="media/logo.svg" width="88" alt="Notedown">
+</p>
+
 # Notedown
 
 The Markdown page that stays yours.
