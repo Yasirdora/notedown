@@ -37,6 +37,10 @@ dates are not original feature or release dates.
 
 See the [example guide](examples/README.md) for use and portability.
 
+## Status and plans
+
+Read the [FAQ](docs/faq.md) and [roadmap](docs/roadmap.md) for current capabilities and areas under evaluation.
+
 ## Licence
 
 Copyright © 2026 Yasir Dora. All rights reserved. See [LICENSE](LICENSE).

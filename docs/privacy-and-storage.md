@@ -45,4 +45,4 @@ Editing the same library in multiple tabs can produce conflicting changes. The a
 - Use Print / save as PDF for a fixed reading copy.
 - Check that the exported document opens and contains the material you need before clearing browser data.
 
-See [formats](formats.md) for export details and the FAQ for common questions.
+See [formats](formats.md) for export details and the [FAQ](faq.md) for common questions.
