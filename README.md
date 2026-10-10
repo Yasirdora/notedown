@@ -41,6 +41,10 @@ See the [example guide](examples/README.md) for use and portability.
 
 Read the [FAQ](docs/faq.md) and [roadmap](docs/roadmap.md) for current capabilities and areas under evaluation.
 
+## Contributing
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for documentation corrections and feedback. Report vulnerabilities privately using [SECURITY.md](SECURITY.md).
+
 ## Licence
 
 Copyright © 2026 Yasir Dora. All rights reserved. See [LICENSE](LICENSE).

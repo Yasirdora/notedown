@@ -1,0 +1,29 @@
+name: Feature request
+description: Describe a writing task Notedown could support better.
+title: "[Idea] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What are you trying to do?
+      description: Describe your writing workflow and the point of friction.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a useful outcome look like?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround or alternatives
+  - type: checkboxes
+    id: checked
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked the roadmap and existing issues.
+          required: true
