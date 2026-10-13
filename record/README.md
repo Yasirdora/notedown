@@ -10,5 +10,6 @@ This documentation was assembled retrospectively on **14 October 2026**, with a 
 | 1–6 August 2026 | Local documents and images | [The local library](02-the-local-library.md) |
 | 6–10 August 2026 | Reading, copying, and structured Markdown | [Portable words](03-portable-words.md) |
 | 11 August 2026 | Notedown identity and interface refinement | [The Notedown identity](04-the-notedown-identity.md) |
+| 14 October 2026 | Source review, saving, and recovery work | [Source review and recovery](05-source-review-and-recovery.md) |
 
 These records describe observed work and its intent. They do not claim that every browser or document behaves identically, that a particular version was released, or that an issue cannot recur. Current usage guidance belongs in the user documentation. The application implementation remains outside this public repository.
