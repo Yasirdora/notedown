@@ -1,16 +1,15 @@
 # Changelog
 
-This changelog covers the public Notedown documentation repository. It is not an application release log.
+This changelog tracks changes to Notedown's documentation.
 
 ## Unreleased
 
-### Public documentation assembled on 14 October 2026
+### Documentation assembled on 14 October 2026
 
-- Established a public overview of Notedown and the scope of this repository.
-- Added a retrospective development record covering the writing surfaces, local library, portable documents, Notedown identity, and source review and recovery work.
-- Distinguished observed development dates from the dates used to organize this repository's Git history.
-- Documented important boundaries around browser storage, exports, local image references, and externally hosted images.
+- Added the product overview, user guides, roadmap, and sample documents.
+- Recorded development work on the editor, document library, import and export, application identity, and source review and recovery.
+- Documented browser storage, export formats, and image portability.
+- Added the Notedown interface preview and its evening library hours example.
+- Revised product descriptions and guides with direct feature descriptions.
 
-The [development record](record/README.md) explains the reconstructed documentation history and observed development dates.
-
-Future documentation changes can be recorded here as they are made. Application release notes, if published later, should identify their own version and verified release date.
+See the [development record](record/README.md) for the history and dates.

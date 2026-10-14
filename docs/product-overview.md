@@ -1,33 +1,35 @@
 # Product overview
 
-Notedown is a browser-based Markdown writing app in development by Yasir Dora. It pairs an editable, typeset page with the plain text underneath, so a note can move from first draft to a readable document in the same workspace.
+Notedown is an advanced word processor for intuitive writing, in development by Yasir Dora. It combines visual editing, document formatting, and organization in a browser application. Write and revise a formatted document, arrange its sections, and inspect or edit its Markdown source.
 
 These capabilities describe Notedown’s current development version. This repository contains product documentation and examples; the application source remains private.
 
-## One document, several views
+## Edit and format documents
 
-**Page** offers a formatted writing surface. **Markdown** exposes the source. **Split** puts both alongside each other, and **Read** presents the document without editing controls. Light, dark, and system themes adjust the workspace.
+**Page** lets you edit a formatted document. **Markdown** lets you edit its source. **Split** displays both, and **Read** presents the document without editing controls. Light, dark, and system themes control the interface appearance.
 
-Headings, lists, quotes, tables, tasks, links, images, and code blocks give everyday notes enough structure. Footnotes are an optional extension. The [format guide](formats.md) explains the supported syntax and its limits.
+Use headings, lists, quotes, tables, tasks, links, images, and code blocks to structure a document. Enable the optional Footnotes pack to add references. The [format guide](formats.md) explains the supported syntax and its limits.
 
-## Tools close to the writing
+## Insert, navigate, and reorganize
 
-The slash menu inserts structure, while the command palette brings document actions and settings into a searchable list. Find locates text in the active document. The outline helps navigate and reorder sections.
+The slash menu inserts document elements, and the command palette provides a searchable list of actions and settings. Find locates text in the active document. Use the outline to navigate and reorder sections.
 
 Focus mode dims surrounding paragraphs and keeps the active line near reading height. Word and character counts and an estimated reading time remain available in the status area.
 
-**Versions** lets writers inspect Page-to-Markdown changes against a trusted source baseline, then keep or restore changes. It is a source-review tool, not a complete revision archive.
+## Review Markdown changes
 
-## A library in the browser
+Editing in Page view can change the Markdown used to represent the document. **Versions** compares the current Markdown with a trusted baseline and lets you restore that baseline. It does not keep a complete revision history.
 
-The document library supports multiple notes, title and body search, renaming, and deletion with a brief undo opportunity. Edits are saved automatically to browser storage, and save failures remain visible.
+## Organize a document library
 
-There is no account or built-in cloud sync. Browser storage has limits, so exporting important work is part of a dependable workflow. See [privacy and storage](privacy-and-storage.md).
+Create, rename, and switch between documents in the library. Search titles and document text, or delete a document with a brief opportunity to undo. Edits are saved automatically to browser storage, and save failures remain visible.
 
-## Portable output
+There is no account or built-in cloud sync. Keep exports of important documents because browser storage can be cleared or become unavailable. See [privacy and storage](privacy-and-storage.md).
+
+## Import, export, and copy
 
 Import Markdown or plain-text files. Export Markdown, an HTML document, or use the browser's print dialog to save a PDF. Copy options adapt content for Slack, rich-text destinations such as Docs or email, Markdown, or plain text.
 
-Stored images need particular care: Markdown exports retain browser-local image references, while HTML export embeds available stored images. The [format guide](formats.md#images-and-portability) explains the distinction.
+Markdown exports retain browser-local image references without including the image files. HTML export embeds available stored images. The [format guide](formats.md#images-and-portability) explains how to export documents containing images.
 
 Start with the [sample documents](../examples/README.md), read the [design principles](design-principles.md), or return to the [repository overview](../README.md).

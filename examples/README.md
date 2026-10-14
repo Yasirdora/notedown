@@ -1,17 +1,18 @@
 # Sample documents
 
-These original Markdown files demonstrate ordinary writing tasks using syntax supported by the current Notedown development implementation. They are fictional examples, not records of real meetings or research.
+These fictional documents demonstrate Notedown's formatting and editing features.
 
-| Document | Try it for |
+| Document | Features |
 | --- | --- |
+| [Evening library hours](evening-library-hours.md) | A decision paper with a recommendation, scope table, highlight, and tasks |
 | [Meeting notes](meeting-notes.md) | Heading navigation, a decisions table, and task lists |
-| [Project brief](project-brief.md) | A professional pilot brief with scope, acceptance criteria, and next actions |
+| [Project brief](project-brief.md) | Scope, acceptance criteria, and next actions |
 | [Research note](research-note.md) | Footnote references and definitions |
 
-Open a downloaded `.md` file through the app's document menu, or paste its source into Markdown view. An imported file becomes a new library document. Switch between Read, Page, Markdown, and Split views to explore the same content.
+Download a `.md` file and open it through the document menu to add it to your library, or paste its source into Markdown view. Use Page to edit formatting, Read to review the document, or Split to view the source and formatted document together.
 
 For the research note, enable the **Footnotes** pack in the command palette (`⌘ K` on macOS; `Ctrl K` on Windows and Linux). With the pack off, the footnote syntax remains visible as text.
 
-The examples deliberately avoid image dependencies. If you add local images, read [formats and portability](../docs/formats.md#images-and-portability) before moving the document to another browser or device.
+The examples contain no images. If you add local images, check [images and portability](../docs/formats.md#images-and-portability) before moving the document to another browser or device.
 
 See the [product overview](../docs/product-overview.md), [format guide](../docs/formats.md), or [repository overview](../README.md).

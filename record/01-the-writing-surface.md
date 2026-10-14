@@ -1,13 +1,11 @@
-# The writing surface
+# The editor
 
 **Observed phase: 1 August 2026**
 
-Notedown began this recorded phase under the name Writing Desk. Its central idea was straightforward: a writer should be able to work on a readable page while retaining direct access to the Markdown underneath. The early application offered a page surface, a Markdown surface, and a split view, together with file export and an offline application shell.
+The first recorded version, named Writing Desk, supported formatted Page editing, direct Markdown editing, and a Split view showing both. It also provided file export and an offline application shell.
 
-The two surfaces serve different tasks. The page makes prose and structure easier to read while editing. Markdown exposes the document's syntax for precise changes and portability. Offering both introduces a responsibility: the interface must make it clear which surface is active, and editing the page must not be mistaken for an assurance that every source character will remain unchanged.
+Page editing provided formatting controls without requiring Markdown syntax. Markdown view exposed the source for direct changes. Converting Page edits back to Markdown could rewrite source formatting, so the two views did not guarantee identical source text after an edit.
 
-The first recorded product work added a visible description of the supported Markdown dialect, keyboard help, a dismissible introduction, and document status information. Structure tools followed: a slash menu for inserting common elements, in-document find, and outline controls that could move a section together with its contents.
-
-These features made everyday actions discoverable without requiring a writer to memorize Markdown syntax. They also set a useful boundary for future work: the readable page is an editing surface, while the Markdown remains something the writer can inspect and export.
+Work on 1 August added Markdown syntax guidance, keyboard help, a dismissible introduction, and document status. Editing tools included a slash menu for inserting elements, document search, and outline controls for moving a section with its contents.
 
 See the [development record](README.md) for dates and provenance.

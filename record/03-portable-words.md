@@ -1,15 +1,15 @@
-# Portable words
+# Document formats and editing
 
 **Observed phase: 6–10 August 2026**
 
-Markdown was already the document format at the start of the recorded development. Work in early August concentrated on making that format comfortable both inside the editor and when moving text elsewhere.
+Work from 6 to 10 August added reading, source editing, clipboard, and document structure tools.
 
-On 6 August, reading and source editing gained distinct improvements. A reading view presented the typeset document without the active editing surface, while source highlighting made Markdown structure easier to scan. An optional footnotes feature extended the document vocabulary without treating every extension as universal Markdown support.
+On 6 August, Read view provided a formatted document view without editing controls. Markdown view gained syntax highlighting. An optional Footnotes pack added numbered references and definitions.
 
-By 10 August, copying had become a destination-aware action. The application offered forms intended for Markdown, plain text, Slack, and documents or email. Those choices acknowledge that a destination may interpret formatting differently; a useful clipboard representation depends on where the writer intends to paste it.
+By 10 August, the app offered clipboard output for Markdown, plain text, Slack, and documents or email. Each option prepared formatting for the receiving application.
 
-The same phase developed structural editing: section word counts, heading promotion and demotion, folding, block movement, and refinements to inline and fenced code. These features support longer notes by making organization visible and adjustable. Folding is a viewing choice, rather than a reason to remove a section from the document.
+Structural editing gained section word counts, heading promotion and demotion, folding, and block movement. Inline and fenced code handling was refined. Folding hid sections from view without removing their content.
 
-Export remains the boundary between browser storage and files the writer controls. Markdown preserves an editable text document; HTML provides a readable export; printing supports a PDF workflow. Images need separate attention because local references and externally hosted images have different portability limits.
+Exports supported Markdown and HTML, with PDF output through browser printing. See the [format guide](../docs/formats.md) for current behavior and image portability limits.
 
 See the [development record](README.md) for dates and provenance.

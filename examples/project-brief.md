@@ -2,13 +2,13 @@
 
 **Objective:** Make useful research easier to find, evaluate, and reuse.
 
-## The opportunity
+## Purpose
 
-Findings are scattered across project folders and meeting notes. A small,
-curated library will help the team answer a practical question: what do we
-already know before commissioning another study?
+Research findings are spread across project folders and meeting notes.
+The pilot will organize twelve completed studies so colleagues can locate
+relevant evidence before commissioning further research.
 
-> Success means better decisions from existing evidence, not a larger archive.
+> Each summary must identify the source, the finding, and its limitations.
 
 ## Pilot scope
 
@@ -16,7 +16,7 @@ already know before commissioning another study?
 | --- | --- | --- |
 | Content | Twelve research summaries | Each links to evidence and names a limitation |
 | Navigation | A shared topic index | A colleague can find a relevant study unaided |
-| Governance | A lightweight review process | Every summary has an owner and review date |
+| Governance | A review process | Every summary has an owner and review date |
 
 ## Next actions
 

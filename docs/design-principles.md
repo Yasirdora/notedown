@@ -1,33 +1,33 @@
 # Design principles
 
-Notedown is built around a simple aim: make writing feel direct while keeping the document understandable outside the app. These principles guide the development implementation and future decisions.
+Notedown combines visual document editing, Markdown access, and document organization in a browser-based word processor. These principles guide its editing controls, storage behavior, and development priorities.
 
-## Keep the words accessible
+## Keep Markdown accessible
 
-Markdown is the document's working form. Writers can inspect the source, edit it directly, and export it. A clear explanation of image portability matters as much as the export button itself.
+Documents use Markdown. Writers should be able to inspect, edit, and export the source. Export guidance must explain which files and images are included and which still depend on browser storage or external hosts.
 
-## Let the page do the work
+## Make formatting and structure intuitive
 
-The writing surface should be readable before it is decorated. Structure belongs in headings, paragraphs, lists, and tables. Controls should appear where they help a writer act without competing with the document.
+Headings, paragraphs, lists, and tables should be readable while editing. Insertion and formatting controls should identify the action and the content it affects. Document navigation and section reordering should help writers revise longer documents.
 
-## Make transformations visible
+## Explain changes to Markdown
 
-Editing a formatted page can change how Markdown is written. Notedown should explain those changes and offer a way to review them. Versions compares the current source with a trusted baseline; it should never be described as a guarantee of identical source or a complete history.
+Editing a formatted document can change its Markdown representation. Notedown should explain those changes and provide a way to review them. Versions compares the current source with a trusted baseline; it does not guarantee identical source or provide a complete edit history.
 
-## Treat saving as a responsibility
+## Report save results accurately
 
-A save indicator should reflect a successful write. Storage failures must stay visible, and recovery advice must be practical. Browser persistence is useful, but exports remain necessary for independent copies.
+A save indicator should confirm a successful write. Storage failures must remain visible, with instructions for preserving unsaved work. Browser storage can become unavailable, so writers need exports for independent copies.
 
-## Keep privacy claims precise
+## Describe storage and network behavior
 
-The current app stores notes in the browser without an account or a content-upload service. External images can still contact their hosts. Documentation should describe what happens to a writer's data in concrete terms rather than rely on an absolute slogan.
+The current app stores documents in the browser without an account or a content-upload service. External images can contact their hosts. Documentation should explain where data is stored, when network requests occur, and what can cause data loss.
 
-## Make power discoverable
+## Provide clear controls and keyboard commands
 
-Menus, a command palette, keyboard shortcuts, and direct manipulation should provide understandable routes to the same work. Additional syntax should be deliberate and identified; footnotes, for example, are opt-in.
+Menus, the command palette, keyboard shortcuts, and direct manipulation should make document actions easy to find and use. Optional extensions should explain their syntax and how to enable them. Footnotes, for example, are opt-in.
 
-## Build from observed needs
+## Prioritize documented writing tasks
 
-A feature earns its place when it improves a real writing task. Future ideas belong in the [roadmap](roadmap.md) with a clear distinction between current behavior and work still under evaluation.
+Feature proposals should identify the writing task, the problem, and the expected improvement. The [roadmap](roadmap.md) separates current capabilities from proposals still under evaluation.
 
 See the [product overview](product-overview.md) and [privacy and storage](privacy-and-storage.md) for how these principles apply today.
